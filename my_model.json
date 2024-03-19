@@ -1,0 +1,1556 @@
+﻿{
+	"items" : 
+	[
+		{
+			"capture-flags" : 3,
+			"class" : "color-overlay",
+			"color" : "4F202020",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"enabled" : true,
+			"keep-aspect" : true,
+			"name" : "color-overlay-0",
+			"pos-x" : 1595,
+			"pos-y" : 1,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"size-x" : 325,
+			"size-y" : 490,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 2
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 1,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"columns" : [ 36, 100, 150, 200, 250, 300 ],
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 28000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : false,
+			"left-align" : false,
+			"name" : "FPS",
+			"pos-x" : 1770,
+			"pos-y" : 427,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensors" : 
+			[
+				{
+					"alertID" : 8680,
+					"color" : null,
+					"column" : 0,
+					"columnBind" : 1,
+					"name" : "FPS",
+					"row" : 0,
+					"rowBind" : 0,
+					"type" : "GAME"
+				}
+			],
+			"size-x" : 146,
+			"size-y" : 57,
+			"small-units" : true,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 4
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay-simple",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 0, 255, 251, 255 ],
+				"outline-type" : 2,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"devices" : 
+			[
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : true,
+					"name" : "FPS",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "FPS_RENDERTYPE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMESIZE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_CURRENT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MIN"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_AVG"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MAX"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMETIME"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_01"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_STATS"
+						}
+					],
+					"title" : "FPS"
+				},
+				{
+					"color" : [ 255, 174, 94, 255 ],
+					"enabled" : false,
+					"name" : "CPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "CPUA_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "CPUA_PACKAGE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_FREQ"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_FAN_RPM"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_VCORE_VOLT"
+						}
+					],
+					"title" : "CPU"
+				},
+				{
+					"color" : [ 102, 228, 48, 255 ],
+					"enabled" : false,
+					"name" : "GPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_FAN_SPEED"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_VOLTS"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_MEM_USAGE"
+						}
+					],
+					"title" : "GPU"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "RAM",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "PHYS_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_AVAIL"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PAGE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_TOTAL"
+						}
+					],
+					"title" : "RAM"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "NET",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_UP_RATE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_DL_RATE"
+						}
+					],
+					"title" : "NET"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Cores",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_VID"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CRIT_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_POWER_LIMIT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_THERMAL_THROT"
+						}
+					],
+					"title" : "Core"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Ping",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 0"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 2"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 3"
+						}
+					],
+					"title" : "Ping"
+				}
+			],
+			"draw-names" : false,
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"line-height" : 0.99999988079071045,
+			"name" : "RENDER TYPE & SIZE",
+			"pos-x" : 1600,
+			"pos-y" : 367,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensor-color-device" : false,
+			"sensors-indent" : 0.20000001788139343,
+			"size-x" : 315,
+			"size-y" : 30,
+			"small-units" : true,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 1
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 1,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"columns" : [ 36, 100, 150, 200, 250, 300 ],
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : false,
+			"left-align" : false,
+			"name" : "FRAME TIME",
+			"pos-x" : 1770,
+			"pos-y" : 397,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensors" : 
+			[
+				{
+					"alertID" : 21447,
+					"color" : null,
+					"column" : 0,
+					"columnBind" : 1,
+					"name" : "Frame time",
+					"row" : 0,
+					"rowBind" : 0,
+					"type" : "GAME"
+				}
+			],
+			"size-x" : 146,
+			"size-y" : 30,
+			"small-units" : true,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 4
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 1,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"columns" : [ 36, 100, 150, 200, 250, 300 ],
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : false,
+			"left-align" : false,
+			"name" : "MIN FPS",
+			"pos-x" : 1770,
+			"pos-y" : 337,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensors" : 
+			[
+				{
+					"alertID" : 8680,
+					"color" : null,
+					"column" : 0,
+					"columnBind" : 1,
+					"name" : "FPS min",
+					"row" : 0,
+					"rowBind" : 0,
+					"type" : "GAME"
+				}
+			],
+			"size-x" : 145,
+			"size-y" : 30,
+			"small-units" : true,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 4
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 1,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"columns" : [ 35, 100, 150, 200, 250, 300 ],
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : false,
+			"left-align" : false,
+			"name" : "AVG FPS",
+			"pos-x" : 1769,
+			"pos-y" : 308,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensors" : 
+			[
+				{
+					"alertID" : 8680,
+					"color" : null,
+					"column" : 0,
+					"columnBind" : 1,
+					"name" : "FPS avg",
+					"row" : 0,
+					"rowBind" : 0,
+					"type" : "GAME"
+				}
+			],
+			"size-x" : 146,
+			"size-y" : 30,
+			"small-units" : true,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 4
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 1,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"columns" : [ 36, 100, 150, 200, 250, 300 ],
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : false,
+			"left-align" : false,
+			"name" : "RAM CLOCK",
+			"pos-x" : 1769,
+			"pos-y" : 277,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensors" : 
+			[
+				{
+					"alertID" : 0,
+					"color" : null,
+					"column" : 0,
+					"columnBind" : 1,
+					"name" : "Memory Clock",
+					"row" : 0,
+					"rowBind" : 0,
+					"type" : "MEM"
+				}
+			],
+			"size-x" : 146,
+			"size-y" : 30,
+			"small-units" : true,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 4
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 1,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"columns" : [ 36, 100, 150, 200, 250, 300 ],
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : false,
+			"left-align" : false,
+			"name" : "RAM",
+			"pos-x" : 1770,
+			"pos-y" : 247,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensors" : 
+			[
+				{
+					"alertID" : 0,
+					"color" : null,
+					"column" : 0,
+					"columnBind" : 1,
+					"name" : "Physical Memory Used",
+					"row" : 0,
+					"rowBind" : 0,
+					"type" : "SYS"
+				}
+			],
+			"size-x" : 146,
+			"size-y" : 30,
+			"small-units" : true,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 4
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 1,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"columns" : [ 36, 100, 150, 200, 250, 300 ],
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : false,
+			"left-align" : false,
+			"name" : "CPU Clock / Freq",
+			"pos-x" : 1769,
+			"pos-y" : 217,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensors" : 
+			[
+				{
+					"alertID" : 4648,
+					"color" : null,
+					"column" : 0,
+					"columnBind" : 1,
+					"name" : "CPU Freq",
+					"row" : 0,
+					"rowBind" : 0,
+					"type" : "CPU"
+				}
+			],
+			"size-x" : 146,
+			"size-y" : 30,
+			"small-units" : true,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 4
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 1,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"columns" : [ 36, 100, 150, 200, 250, 300 ],
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : false,
+			"left-align" : false,
+			"name" : "CPU Temp",
+			"pos-x" : 1769,
+			"pos-y" : 187,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensors" : 
+			[
+				{
+					"alertID" : 24660,
+					"color" : null,
+					"column" : 0,
+					"columnBind" : 1,
+					"name" : "CPU Package",
+					"row" : 0,
+					"rowBind" : 0,
+					"type" : "CPU"
+				}
+			],
+			"size-x" : 146,
+			"size-y" : 30,
+			"small-units" : true,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 4
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 1,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"columns" : [ 36, 100, 150, 200, 250, 300 ],
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : false,
+			"left-align" : false,
+			"name" : "CPU Load",
+			"pos-x" : 1769,
+			"pos-y" : 157,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensors" : 
+			[
+				{
+					"alertID" : 6188,
+					"color" : null,
+					"column" : 0,
+					"columnBind" : 1,
+					"name" : "Total CPU Usage",
+					"row" : 0,
+					"rowBind" : 0,
+					"type" : "CPU"
+				}
+			],
+			"size-x" : 146,
+			"size-y" : 30,
+			"small-units" : true,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 4
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 1,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"columns" : [ 36, 100, 150, 200, 250, 300 ],
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : false,
+			"left-align" : false,
+			"name" : "GPU Memory Clock",
+			"pos-x" : 1769,
+			"pos-y" : 97,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensors" : 
+			[
+				{
+					"alertID" : 0,
+					"color" : null,
+					"column" : 0,
+					"columnBind" : 1,
+					"name" : "GPU Memory Clock",
+					"row" : 0,
+					"rowBind" : 0,
+					"type" : "GPU"
+				}
+			],
+			"size-x" : 146,
+			"size-y" : 30,
+			"small-units" : true,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 4
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 1,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"columns" : [ 36, 100, 150, 200, 250, 300 ],
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : false,
+			"left-align" : false,
+			"name" : "GPU Clock",
+			"pos-x" : 1769,
+			"pos-y" : 67,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensors" : 
+			[
+				{
+					"alertID" : 3199,
+					"color" : null,
+					"column" : 0,
+					"columnBind" : 1,
+					"name" : "GPU Clock",
+					"row" : 0,
+					"rowBind" : 0,
+					"type" : "GPU"
+				}
+			],
+			"size-x" : 146,
+			"size-y" : 30,
+			"small-units" : true,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 4
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 1,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"columns" : [ 36, 100, 150, 200, 250, 300 ],
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : false,
+			"left-align" : false,
+			"name" : "GPU Temp",
+			"pos-x" : 1769,
+			"pos-y" : 37,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensors" : 
+			[
+				{
+					"alertID" : 8861,
+					"color" : null,
+					"column" : 0,
+					"columnBind" : 1,
+					"name" : "GPU Temperature",
+					"row" : 0,
+					"rowBind" : 0,
+					"type" : "GPU"
+				}
+			],
+			"size-x" : 146,
+			"size-y" : 30,
+			"small-units" : true,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 4
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 1,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"columns" : [ 36, 100, 150, 200, 250, 300 ],
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : false,
+			"left-align" : false,
+			"name" : "GPU Load",
+			"pos-x" : 1769,
+			"pos-y" : 7,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensors" : 
+			[
+				{
+					"alertID" : 28793,
+					"color" : null,
+					"column" : 0,
+					"columnBind" : 1,
+					"name" : "GPU Core Load",
+					"row" : 0,
+					"rowBind" : 0,
+					"type" : "GPU"
+				}
+			],
+			"size-x" : 146,
+			"size-y" : 30,
+			"small-units" : true,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 4
+		},
+		{
+			"capture-flags" : 3,
+			"class" : "caption-text-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : "FFFFFFFF",
+				"outline" : "FF000000",
+				"outline-type" : 2,
+				"outline2" : "FF000000"
+			},
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 28000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"name" : "FPS TEXT",
+			"pos-x" : 1600,
+			"pos-y" : 427,
+			"right-align" : 0,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"size-x" : 165,
+			"size-y" : 55,
+			"text" : "FPS",
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 1
+		},
+		{
+			"capture-flags" : 3,
+			"class" : "caption-text-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : "FFFFFFFF",
+				"outline" : "FF000000",
+				"outline-type" : 2,
+				"outline2" : "FF000000"
+			},
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"name" : "FRAMETIME TEXT",
+			"pos-x" : 1600,
+			"pos-y" : 397,
+			"right-align" : 0,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"size-x" : 165,
+			"size-y" : 30,
+			"text" : "FRAME TIME",
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 1
+		},
+		{
+			"capture-flags" : 3,
+			"class" : "caption-text-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : "FFFFFFFF",
+				"outline" : "FF000000",
+				"outline-type" : 2,
+				"outline2" : "FF000000"
+			},
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"name" : "MIN FPS TEXT",
+			"pos-x" : 1600,
+			"pos-y" : 337,
+			"right-align" : 0,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"size-x" : 165,
+			"size-y" : 30,
+			"text" : "MIN FPS",
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 1
+		},
+		{
+			"capture-flags" : 3,
+			"class" : "caption-text-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : "FFFFFFFF",
+				"outline" : "FF000000",
+				"outline-type" : 2,
+				"outline2" : "FF000000"
+			},
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"name" : "AVG FPS TEXT",
+			"pos-x" : 1600,
+			"pos-y" : 308,
+			"right-align" : 0,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"size-x" : 165,
+			"size-y" : 30,
+			"text" : "AVG FPS",
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 1
+		},
+		{
+			"capture-flags" : 3,
+			"class" : "caption-text-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : "FFC500FF",
+				"outline" : "FF000000",
+				"outline-type" : 2,
+				"outline2" : "FF000000"
+			},
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"name" : "RAM CLOCK TEXT",
+			"pos-x" : 1600,
+			"pos-y" : 277,
+			"right-align" : 0,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"size-x" : 165,
+			"size-y" : 30,
+			"text" : "RAM CLOCK",
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 1
+		},
+		{
+			"capture-flags" : 3,
+			"class" : "caption-text-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : "FFC500FF",
+				"outline" : "FF000000",
+				"outline-type" : 2,
+				"outline2" : "FF000000"
+			},
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"name" : "RAM TEXT",
+			"pos-x" : 1600,
+			"pos-y" : 247,
+			"right-align" : 0,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"size-x" : 165,
+			"size-y" : 30,
+			"text" : "RAM ${RAM_TOTAL}",
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 1
+		},
+		{
+			"capture-flags" : 3,
+			"class" : "caption-text-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : "FF00B6FF",
+				"outline" : "FF000000",
+				"outline-type" : 2,
+				"outline2" : "FF000000"
+			},
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"name" : "CPU CLOCK TEXT",
+			"pos-x" : 1600,
+			"pos-y" : 217,
+			"right-align" : 0,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"size-x" : 165,
+			"size-y" : 30,
+			"text" : "CPU CLOCK",
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 1
+		},
+		{
+			"capture-flags" : 3,
+			"class" : "caption-text-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : "FF00B6FF",
+				"outline" : "FF000000",
+				"outline-type" : 2,
+				"outline2" : "FF000000"
+			},
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"name" : "CPU TEMP TEXT",
+			"pos-x" : 1600,
+			"pos-y" : 187,
+			"right-align" : 0,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"size-x" : 165,
+			"size-y" : 30,
+			"text" : "CPU TEMP",
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 1
+		},
+		{
+			"capture-flags" : 3,
+			"class" : "caption-text-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : "FF00B6FF",
+				"outline" : "FF000000",
+				"outline-type" : 2,
+				"outline2" : "FF000000"
+			},
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"name" : "CPU NAME TEXT",
+			"pos-x" : 1600,
+			"pos-y" : 157,
+			"right-align" : 0,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"size-x" : 165,
+			"size-y" : 30,
+			"text" : "${CPU0/s}",
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 1
+		},
+		{
+			"capture-flags" : 3,
+			"class" : "caption-text-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : "FF17F99D",
+				"outline" : "FF000000",
+				"outline-type" : 2,
+				"outline2" : "FF000000"
+			},
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"name" : "GPU VRAM TEXT",
+			"pos-x" : 1600,
+			"pos-y" : 127,
+			"right-align" : 0,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"size-x" : 165,
+			"size-y" : 30,
+			"text" : "GPU VRAM",
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 1
+		},
+		{
+			"capture-flags" : 3,
+			"class" : "caption-text-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : "FF17F99D",
+				"outline" : "FF000000",
+				"outline-type" : 2,
+				"outline2" : "FF000000"
+			},
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"name" : "GPU M. CLOCK TEXT",
+			"pos-x" : 1600,
+			"pos-y" : 97,
+			"right-align" : 0,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"size-x" : 165,
+			"size-y" : 30,
+			"text" : "GPU M. CLOCK",
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 1
+		},
+		{
+			"capture-flags" : 3,
+			"class" : "caption-text-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : "FF17F99D",
+				"outline" : "FF000000",
+				"outline-type" : 2,
+				"outline2" : "FF000000"
+			},
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"name" : "GPU CLOCK TEXT",
+			"pos-x" : 1600,
+			"pos-y" : 67,
+			"right-align" : 0,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"size-x" : 165,
+			"size-y" : 30,
+			"text" : "GPU CLOCK",
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 1
+		},
+		{
+			"capture-flags" : 3,
+			"class" : "caption-text-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : "FF17F99D",
+				"outline" : "FF000000",
+				"outline-type" : 2,
+				"outline2" : "FF000000"
+			},
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"name" : "GPU TEMP TEXT",
+			"pos-x" : 1600,
+			"pos-y" : 37,
+			"right-align" : 0,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"size-x" : 165,
+			"size-y" : 30,
+			"text" : "GPU TEMP",
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 1
+		},
+		{
+			"capture-flags" : 3,
+			"class" : "caption-text-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : "FF17F99D",
+				"outline" : "FF000000",
+				"outline-type" : 2,
+				"outline2" : "FF000000"
+			},
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"name" : "GPU NAME TEXT",
+			"pos-x" : 1600,
+			"pos-y" : 7,
+			"right-align" : 0,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"size-x" : 165,
+			"size-y" : 30,
+			"text" : "AMD RX6600",
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 1
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 1,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"columns" : [ 36, 100, 150, 200, 250, 300 ],
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Verdana",
+					"size" : 14000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : false,
+			"left-align" : false,
+			"name" : "CPU Load",
+			"pos-x" : 1769,
+			"pos-y" : 127,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensors" : 
+			[
+				{
+					"alertID" : 0,
+					"color" : null,
+					"column" : 0,
+					"columnBind" : 1,
+					"name" : "GPU D3D Memory Dedicated",
+					"row" : 0,
+					"rowBind" : 0,
+					"type" : "GPU"
+				}
+			],
+			"size-x" : 151,
+			"size-y" : 30,
+			"small-units" : true,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 4
+		}
+	],
+	"load-hotkey" : [ 0, 0, 0, 0 ],
+	"version" : 2
+}

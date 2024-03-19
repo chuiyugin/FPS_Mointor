@@ -1,0 +1,5989 @@
+﻿{
+	"items" : 
+	[
+		{
+			"capture-flags" : 3,
+			"class" : "caption-text-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : "FFFFFFFF",
+				"outline" : "FF000000",
+				"outline-type" : 1,
+				"outline2" : "FF000000"
+			},
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Calibri",
+					"size" : 24000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"name" : "caption-text-overlay-0",
+			"pos-x" : 1350,
+			"pos-y" : 940,
+			"right-align" : 0,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"size-x" : 345,
+			"size-y" : 40,
+			"text" : "chaowanke.taobao.com",
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 2
+		},
+		{
+			"capture-flags" : 3,
+			"class" : "color-overlay",
+			"color" : "6476B900",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"enabled" : true,
+			"keep-aspect" : true,
+			"name" : "绿色背景",
+			"pos-x" : 1280,
+			"pos-y" : 1035,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"size-x" : 415,
+			"size-y" : 150,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 2
+		},
+		{
+			"capture-flags" : 3,
+			"class" : "color-overlay",
+			"color" : "9676B900",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"enabled" : true,
+			"keep-aspect" : true,
+			"name" : "绿色背景2",
+			"pos-x" : 1280,
+			"pos-y" : 1035,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"size-x" : 415,
+			"size-y" : 40,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 2
+		},
+		{
+			"capture-flags" : 3,
+			"class" : "color-overlay",
+			"color" : "640071C5",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"enabled" : true,
+			"keep-aspect" : true,
+			"name" : "蓝色背景",
+			"pos-x" : 860,
+			"pos-y" : 1035,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"size-x" : 415,
+			"size-y" : 150,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 2
+		},
+		{
+			"capture-flags" : 3,
+			"class" : "color-overlay",
+			"color" : "960071C5",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"enabled" : true,
+			"keep-aspect" : true,
+			"name" : "蓝色背景2",
+			"pos-x" : 860,
+			"pos-y" : 1035,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"size-x" : 415,
+			"size-y" : 40,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 2
+		},
+		{
+			"capture-flags" : 3,
+			"class" : "color-overlay",
+			"color" : "64000000",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"enabled" : true,
+			"keep-aspect" : true,
+			"name" : "黑色背景",
+			"pos-x" : 860,
+			"pos-y" : 905,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"size-x" : 835,
+			"size-y" : 125,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 2
+		},
+		{
+			"alertID" : 25124,
+			"alerts-to-text" : false,
+			"anti-aliasing" : true,
+			"area-chart" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-chart-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 2,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"direction-down" : false,
+			"direction-left" : false,
+			"draw-marks" : true,
+			"draw-name" : true,
+			"draw-name-value" : "使用率",
+			"draw-value" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Microsoft Sans Serif",
+					"size" : 19000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"line-thinkness" : 1.0,
+			"lines-aa" : true,
+			"name" : "CPU 使用率",
+			"pos-x" : 865,
+			"pos-y" : 1070,
+			"range-dynamic" : false,
+			"range-max" : 100.0,
+			"range-min" : 0.0,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensor-instance-index" : 0,
+			"sensor-name" : "Total CPU Usage",
+			"sensor-type" : "CPU",
+			"size-x" : 200,
+			"size-y" : 110,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 10
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay-simple",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 2,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"devices" : 
+			[
+				{
+					"color" : [ 254, 254, 255, 255 ],
+					"enabled" : true,
+					"name" : "CPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_FREQ"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_PACKAGE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_FAN_RPM"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_VCORE_VOLT"
+						}
+					],
+					"title" : "功耗"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "FPS",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "FPS_CURRENT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MIN"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_AVG"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MAX"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMETIME"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMESIZE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_RENDERTYPE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_01"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_STATS"
+						}
+					],
+					"title" : "FPS"
+				},
+				{
+					"color" : [ 102, 228, 48, 255 ],
+					"enabled" : false,
+					"name" : "GPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_FAN_SPEED"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_VOLTS"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_MEM_USAGE"
+						}
+					],
+					"title" : "GPU"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "RAM",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "PHYS_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_AVAIL"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PAGE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_TOTAL"
+						}
+					],
+					"title" : "RAM"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "NET",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_UP_RATE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_DL_RATE"
+						}
+					],
+					"title" : "NET"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Ping",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 0"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 2"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 3"
+						}
+					],
+					"title" : "Ping"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Cores",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_VID"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CRIT_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_POWER_LIMIT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_THERMAL_THROT"
+						}
+					],
+					"title" : "Core"
+				}
+			],
+			"draw-names" : true,
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Microsoft Sans Serif",
+					"size" : 19000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"line-height" : 1.5,
+			"name" : "CPU 功耗",
+			"pos-x" : 865,
+			"pos-y" : 1145,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensor-color-device" : false,
+			"sensors-indent" : 0.70000004768371582,
+			"size-x" : 200,
+			"size-y" : 30,
+			"small-units" : false,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 10
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay-simple",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 2,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"devices" : 
+			[
+				{
+					"color" : [ 254, 254, 255, 255 ],
+					"enabled" : true,
+					"name" : "CPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "CPUA_PACKAGE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_FREQ"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_FAN_RPM"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_VCORE_VOLT"
+						}
+					],
+					"title" : "温度"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "FPS",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "FPS_CURRENT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MIN"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_AVG"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MAX"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMETIME"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMESIZE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_RENDERTYPE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_01"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_STATS"
+						}
+					],
+					"title" : "FPS"
+				},
+				{
+					"color" : [ 102, 228, 48, 255 ],
+					"enabled" : false,
+					"name" : "GPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_FAN_SPEED"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_VOLTS"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_MEM_USAGE"
+						}
+					],
+					"title" : "GPU"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "RAM",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "PHYS_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_AVAIL"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PAGE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_TOTAL"
+						}
+					],
+					"title" : "RAM"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "NET",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_UP_RATE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_DL_RATE"
+						}
+					],
+					"title" : "NET"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Ping",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 0"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 2"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 3"
+						}
+					],
+					"title" : "Ping"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Cores",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_VID"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CRIT_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_POWER_LIMIT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_THERMAL_THROT"
+						}
+					],
+					"title" : "Core"
+				}
+			],
+			"draw-names" : true,
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Microsoft Sans Serif",
+					"size" : 19000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"line-height" : 1.5,
+			"name" : "CPU 温度",
+			"pos-x" : 865,
+			"pos-y" : 1120,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensor-color-device" : false,
+			"sensors-indent" : 1.7000001668930054,
+			"size-x" : 200,
+			"size-y" : 30,
+			"small-units" : false,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 10
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay-simple",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 2,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"devices" : 
+			[
+				{
+					"color" : [ 254, 254, 255, 255 ],
+					"enabled" : true,
+					"name" : "CPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "CPUA_FREQ"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_PACKAGE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_FAN_RPM"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_VCORE_VOLT"
+						}
+					],
+					"title" : "频率"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "FPS",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "FPS_CURRENT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MIN"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_AVG"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MAX"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMETIME"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMESIZE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_RENDERTYPE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_01"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_STATS"
+						}
+					],
+					"title" : "FPS"
+				},
+				{
+					"color" : [ 102, 228, 48, 255 ],
+					"enabled" : false,
+					"name" : "GPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_FAN_SPEED"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_VOLTS"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_MEM_USAGE"
+						}
+					],
+					"title" : "GPU"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "RAM",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "PHYS_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_AVAIL"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PAGE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_TOTAL"
+						}
+					],
+					"title" : "RAM"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "NET",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_UP_RATE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_DL_RATE"
+						}
+					],
+					"title" : "NET"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Ping",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 0"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 2"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 3"
+						}
+					],
+					"title" : "Ping"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Cores",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_VID"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CRIT_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_POWER_LIMIT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_THERMAL_THROT"
+						}
+					],
+					"title" : "Core"
+				}
+			],
+			"draw-names" : true,
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Microsoft Sans Serif",
+					"size" : 19000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"line-height" : 1.5,
+			"name" : "CPU 频率",
+			"pos-x" : 865,
+			"pos-y" : 1095,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensor-color-device" : false,
+			"sensors-indent" : 0.10000001639127731,
+			"size-x" : 200,
+			"size-y" : 30,
+			"small-units" : false,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 10
+		},
+		{
+			"capture-flags" : 3,
+			"class" : "caption-text-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : "FFFFFFFF",
+				"outline" : "FF000000",
+				"outline-type" : 2,
+				"outline2" : "FF000000"
+			},
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Microsoft Sans Serif",
+					"size" : 32000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"name" : "CPU 名称",
+			"pos-x" : 860,
+			"pos-y" : 1025,
+			"right-align" : 0,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"size-x" : 415,
+			"size-y" : 50,
+			"text" : "CPU  ${CPU0/s}",
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 2
+		},
+		{
+			"alertID" : 25124,
+			"alerts-to-text" : false,
+			"anti-aliasing" : true,
+			"area-chart" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-chart-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 2,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"direction-down" : false,
+			"direction-left" : false,
+			"draw-marks" : true,
+			"draw-name" : true,
+			"draw-name-value" : "内存使用率",
+			"draw-value" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Microsoft Sans Serif",
+					"size" : 19000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"line-thinkness" : 1.0,
+			"lines-aa" : true,
+			"name" : "内存使用率",
+			"pos-x" : 1070,
+			"pos-y" : 1070,
+			"range-dynamic" : false,
+			"range-max" : 100.0,
+			"range-min" : 0.0,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensor-instance-index" : 0,
+			"sensor-name" : "Physical Memory Load",
+			"sensor-type" : "SYS",
+			"size-x" : 200,
+			"size-y" : 110,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 10
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay-simple",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 2,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"devices" : 
+			[
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : true,
+					"name" : "RAM",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "PHYS_TOTAL"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_AVAIL"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PAGE_LOAD"
+						}
+					],
+					"title" : "总量"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "FPS",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "FPS_CURRENT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MIN"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_AVG"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MAX"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMETIME"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMESIZE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_RENDERTYPE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_01"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_STATS"
+						}
+					],
+					"title" : "FPS"
+				},
+				{
+					"color" : [ 255, 174, 94, 255 ],
+					"enabled" : false,
+					"name" : "CPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "CPUA_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "CPUA_PACKAGE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_FREQ"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_FAN_RPM"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_VCORE_VOLT"
+						}
+					],
+					"title" : "CPU"
+				},
+				{
+					"color" : [ 102, 228, 48, 255 ],
+					"enabled" : false,
+					"name" : "GPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_FAN_SPEED"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_VOLTS"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_MEM_USAGE"
+						}
+					],
+					"title" : "GPU"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "NET",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_UP_RATE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_DL_RATE"
+						}
+					],
+					"title" : "NET"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Ping",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 0"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 2"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 3"
+						}
+					],
+					"title" : "Ping"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Cores",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_VID"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CRIT_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_POWER_LIMIT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_THERMAL_THROT"
+						}
+					],
+					"title" : "Core"
+				}
+			],
+			"draw-names" : true,
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Microsoft Sans Serif",
+					"size" : 19000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"line-height" : 1.5,
+			"name" : "内存总量",
+			"pos-x" : 1070,
+			"pos-y" : 1095,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensor-color-device" : false,
+			"sensors-indent" : 0.90000009536743164,
+			"size-x" : 200,
+			"size-y" : 30,
+			"small-units" : false,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 10
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay-simple",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 2,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"devices" : 
+			[
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : true,
+					"name" : "RAM",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "PHYS_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_AVAIL"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PAGE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_TOTAL"
+						}
+					],
+					"title" : "占用"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "FPS",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "FPS_CURRENT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MIN"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_AVG"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MAX"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMETIME"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMESIZE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_RENDERTYPE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_01"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_STATS"
+						}
+					],
+					"title" : "FPS"
+				},
+				{
+					"color" : [ 255, 174, 94, 255 ],
+					"enabled" : false,
+					"name" : "CPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "CPUA_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "CPUA_PACKAGE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_FREQ"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_FAN_RPM"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_VCORE_VOLT"
+						}
+					],
+					"title" : "CPU"
+				},
+				{
+					"color" : [ 102, 228, 48, 255 ],
+					"enabled" : false,
+					"name" : "GPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_FAN_SPEED"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_VOLTS"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_MEM_USAGE"
+						}
+					],
+					"title" : "GPU"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "NET",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_UP_RATE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_DL_RATE"
+						}
+					],
+					"title" : "NET"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Ping",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 0"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 2"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 3"
+						}
+					],
+					"title" : "Ping"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Cores",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_VID"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CRIT_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_POWER_LIMIT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_THERMAL_THROT"
+						}
+					],
+					"title" : "Core"
+				}
+			],
+			"draw-names" : true,
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Microsoft Sans Serif",
+					"size" : 19000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"line-height" : 1.5,
+			"name" : "内存占用",
+			"pos-x" : 1070,
+			"pos-y" : 1120,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensor-color-device" : false,
+			"sensors-indent" : 0.89999997615814209,
+			"size-x" : 200,
+			"size-y" : 30,
+			"small-units" : false,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 10
+		},
+		{
+			"alertID" : 25124,
+			"alerts-to-text" : false,
+			"anti-aliasing" : true,
+			"area-chart" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-chart-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 2,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"direction-down" : false,
+			"direction-left" : false,
+			"draw-marks" : true,
+			"draw-name" : true,
+			"draw-name-value" : "使用率",
+			"draw-value" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Microsoft Sans Serif",
+					"size" : 19000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"line-thinkness" : 1.0,
+			"lines-aa" : true,
+			"name" : "GPU 使用率",
+			"pos-x" : 1285,
+			"pos-y" : 1070,
+			"range-dynamic" : false,
+			"range-max" : 100.0,
+			"range-min" : 0.0,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensor-instance-index" : 0,
+			"sensor-name" : "GPU Core Load",
+			"sensor-type" : "GPU",
+			"size-x" : 200,
+			"size-y" : 110,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 10
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay-simple",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 2,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"devices" : 
+			[
+				{
+					"color" : [ 254, 254, 255, 255 ],
+					"enabled" : true,
+					"name" : "GPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_FAN_SPEED"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_VOLTS"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_MEM_USAGE"
+						}
+					],
+					"title" : "功耗"
+				},
+				{
+					"color" : [ 254, 254, 255, 255 ],
+					"enabled" : false,
+					"name" : "CPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "CPUA_FREQ"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_PACKAGE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_FAN_RPM"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_VCORE_VOLT"
+						}
+					],
+					"title" : "CPU 频率"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "FPS",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "FPS_CURRENT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MIN"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_AVG"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MAX"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMETIME"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMESIZE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_RENDERTYPE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_01"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_STATS"
+						}
+					],
+					"title" : "FPS"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "RAM",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "PHYS_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_AVAIL"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PAGE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_TOTAL"
+						}
+					],
+					"title" : "RAM"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "NET",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_UP_RATE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_DL_RATE"
+						}
+					],
+					"title" : "NET"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Ping",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 0"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 2"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 3"
+						}
+					],
+					"title" : "Ping"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Cores",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_VID"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CRIT_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_POWER_LIMIT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_THERMAL_THROT"
+						}
+					],
+					"title" : "Core"
+				}
+			],
+			"draw-names" : true,
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Microsoft Sans Serif",
+					"size" : 19000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"line-height" : 1.5,
+			"name" : "GPU 功耗",
+			"pos-x" : 1285,
+			"pos-y" : 1145,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensor-color-device" : false,
+			"sensors-indent" : 0.69999992847442627,
+			"size-x" : 200,
+			"size-y" : 36,
+			"small-units" : false,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 10
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay-simple",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 2,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"devices" : 
+			[
+				{
+					"color" : [ 254, 254, 255, 255 ],
+					"enabled" : true,
+					"name" : "GPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_FAN_SPEED"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_VOLTS"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_MEM_USAGE"
+						}
+					],
+					"title" : "温度"
+				},
+				{
+					"color" : [ 254, 254, 255, 255 ],
+					"enabled" : false,
+					"name" : "CPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "CPUA_FREQ"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_PACKAGE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_FAN_RPM"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_VCORE_VOLT"
+						}
+					],
+					"title" : "CPU 频率"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "FPS",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "FPS_CURRENT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MIN"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_AVG"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MAX"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMETIME"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMESIZE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_RENDERTYPE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_01"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_STATS"
+						}
+					],
+					"title" : "FPS"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "RAM",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "PHYS_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_AVAIL"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PAGE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_TOTAL"
+						}
+					],
+					"title" : "RAM"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "NET",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_UP_RATE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_DL_RATE"
+						}
+					],
+					"title" : "NET"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Ping",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 0"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 2"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 3"
+						}
+					],
+					"title" : "Ping"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Cores",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_VID"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CRIT_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_POWER_LIMIT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_THERMAL_THROT"
+						}
+					],
+					"title" : "Core"
+				}
+			],
+			"draw-names" : true,
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Microsoft Sans Serif",
+					"size" : 19000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"line-height" : 1.5,
+			"name" : "GPU 温度",
+			"pos-x" : 1285,
+			"pos-y" : 1120,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensor-color-device" : false,
+			"sensors-indent" : 1.7000001668930054,
+			"size-x" : 200,
+			"size-y" : 30,
+			"small-units" : false,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 10
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay-simple",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 2,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"devices" : 
+			[
+				{
+					"color" : [ 254, 255, 254, 255 ],
+					"enabled" : true,
+					"name" : "GPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_FAN_SPEED"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_VOLTS"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_MEM_USAGE"
+						}
+					],
+					"title" : "频率"
+				},
+				{
+					"color" : [ 254, 254, 255, 255 ],
+					"enabled" : false,
+					"name" : "CPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "CPUA_FREQ"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_PACKAGE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_FAN_RPM"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_VCORE_VOLT"
+						}
+					],
+					"title" : "CPU 频率"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "FPS",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "FPS_CURRENT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MIN"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_AVG"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MAX"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMETIME"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMESIZE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_RENDERTYPE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_01"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_STATS"
+						}
+					],
+					"title" : "FPS"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "RAM",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "PHYS_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_AVAIL"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PAGE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_TOTAL"
+						}
+					],
+					"title" : "RAM"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "NET",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_UP_RATE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_DL_RATE"
+						}
+					],
+					"title" : "NET"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Ping",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 0"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 2"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 3"
+						}
+					],
+					"title" : "Ping"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Cores",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_VID"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CRIT_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_POWER_LIMIT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_THERMAL_THROT"
+						}
+					],
+					"title" : "Core"
+				}
+			],
+			"draw-names" : true,
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Microsoft Sans Serif",
+					"size" : 19000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"line-height" : 1.5,
+			"name" : "GPU 频率",
+			"pos-x" : 1285,
+			"pos-y" : 1095,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensor-color-device" : false,
+			"sensors-indent" : 0.10000001639127731,
+			"size-x" : 200,
+			"size-y" : 30,
+			"small-units" : false,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 10
+		},
+		{
+			"capture-flags" : 3,
+			"class" : "caption-text-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : "FFFFFFFF",
+				"outline" : "FF000000",
+				"outline-type" : 2,
+				"outline2" : "FF000000"
+			},
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Microsoft Sans Serif",
+					"size" : 32000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"name" : "GPU 名称",
+			"pos-x" : 1280,
+			"pos-y" : 1025,
+			"right-align" : 0,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"size-x" : 415,
+			"size-y" : 50,
+			"text" : "GPU  ${GPU0/s} ",
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 10
+		},
+		{
+			"alertID" : 25124,
+			"alerts-to-text" : false,
+			"anti-aliasing" : true,
+			"area-chart" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-chart-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 2,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"direction-down" : false,
+			"direction-left" : false,
+			"draw-marks" : true,
+			"draw-name" : true,
+			"draw-name-value" : "显存使用率",
+			"draw-value" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Microsoft Sans Serif",
+					"size" : 19000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"line-thinkness" : 1.0,
+			"lines-aa" : true,
+			"name" : "显存使用率",
+			"pos-x" : 1490,
+			"pos-y" : 1070,
+			"range-dynamic" : false,
+			"range-max" : 100.0,
+			"range-min" : 0.0,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensor-instance-index" : 0,
+			"sensor-name" : "GPU Memory Usage",
+			"sensor-type" : "GPU",
+			"size-x" : 200,
+			"size-y" : 110,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 10
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay-simple",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 2,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"devices" : 
+			[
+				{
+					"color" : [ 254, 255, 254, 255 ],
+					"enabled" : true,
+					"name" : "GPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_MEM_USAGE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_FAN_SPEED"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_VOLTS"
+						}
+					],
+					"title" : "占用"
+				},
+				{
+					"color" : [ 254, 254, 255, 255 ],
+					"enabled" : false,
+					"name" : "CPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "CPUA_FREQ"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_PACKAGE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_FAN_RPM"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_VCORE_VOLT"
+						}
+					],
+					"title" : "CPU 频率"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "FPS",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "FPS_CURRENT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MIN"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_AVG"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MAX"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMETIME"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMESIZE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_RENDERTYPE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_01"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_STATS"
+						}
+					],
+					"title" : "FPS"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "RAM",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "PHYS_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_AVAIL"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PAGE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_TOTAL"
+						}
+					],
+					"title" : "RAM"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "NET",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_UP_RATE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_DL_RATE"
+						}
+					],
+					"title" : "NET"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Ping",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 0"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 2"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 3"
+						}
+					],
+					"title" : "Ping"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Cores",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_VID"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CRIT_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_POWER_LIMIT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_THERMAL_THROT"
+						}
+					],
+					"title" : "Core"
+				}
+			],
+			"draw-names" : true,
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Microsoft Sans Serif",
+					"size" : 19000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"line-height" : 1.5,
+			"name" : "显存占用",
+			"pos-x" : 1490,
+			"pos-y" : 1120,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensor-color-device" : false,
+			"sensors-indent" : 0.90000009536743164,
+			"size-x" : 200,
+			"size-y" : 30,
+			"small-units" : false,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 10
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay-simple",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 2,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"devices" : 
+			[
+				{
+					"color" : [ 254, 255, 254, 255 ],
+					"enabled" : true,
+					"name" : "GPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_FAN_SPEED"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_VOLTS"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_MEM_USAGE"
+						}
+					],
+					"title" : "频率"
+				},
+				{
+					"color" : [ 254, 254, 255, 255 ],
+					"enabled" : false,
+					"name" : "CPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "CPUA_FREQ"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_PACKAGE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_FAN_RPM"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_VCORE_VOLT"
+						}
+					],
+					"title" : "CPU 频率"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "FPS",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "FPS_CURRENT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MIN"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_AVG"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MAX"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMETIME"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMESIZE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_RENDERTYPE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_01"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_STATS"
+						}
+					],
+					"title" : "FPS"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "RAM",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "PHYS_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_AVAIL"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PAGE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_TOTAL"
+						}
+					],
+					"title" : "RAM"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "NET",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_UP_RATE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_DL_RATE"
+						}
+					],
+					"title" : "NET"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Ping",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 0"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 2"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 3"
+						}
+					],
+					"title" : "Ping"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Cores",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_VID"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CRIT_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_POWER_LIMIT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_THERMAL_THROT"
+						}
+					],
+					"title" : "Core"
+				}
+			],
+			"draw-names" : true,
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Microsoft Sans Serif",
+					"size" : 19000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"line-height" : 1.5,
+			"name" : "显存频率",
+			"pos-x" : 1490,
+			"pos-y" : 1095,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensor-color-device" : false,
+			"sensors-indent" : 0.10000001639127731,
+			"size-x" : 200,
+			"size-y" : 35,
+			"small-units" : false,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 10
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay-simple",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 2,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"devices" : 
+			[
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : true,
+					"name" : "FPS",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "FPS_RENDERTYPE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMESIZE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_CURRENT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MIN"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_AVG"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MAX"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMETIME"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_01"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_STATS"
+						}
+					],
+					"title" : "API"
+				},
+				{
+					"color" : [ 254, 254, 255, 255 ],
+					"enabled" : false,
+					"name" : "CPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "CPUA_FREQ"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_PACKAGE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_FAN_RPM"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_VCORE_VOLT"
+						}
+					],
+					"title" : "CPU 频率"
+				},
+				{
+					"color" : [ 254, 255, 254, 255 ],
+					"enabled" : false,
+					"name" : "GPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_FAN_SPEED"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_VOLTS"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_MEM_USAGE"
+						}
+					],
+					"title" : "GPU"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "RAM",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "PHYS_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_AVAIL"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PAGE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_TOTAL"
+						}
+					],
+					"title" : "RAM"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "NET",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_UP_RATE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_DL_RATE"
+						}
+					],
+					"title" : "NET"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Ping",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 0"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 2"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 3"
+						}
+					],
+					"title" : "Ping"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Cores",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_VID"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CRIT_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_POWER_LIMIT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_THERMAL_THROT"
+						}
+					],
+					"title" : "Core"
+				}
+			],
+			"draw-names" : true,
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Microsoft Sans Serif",
+					"size" : 19000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"line-height" : 1.5,
+			"name" : "API",
+			"pos-x" : 1400,
+			"pos-y" : 995,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensor-color-device" : false,
+			"sensors-indent" : 0.0,
+			"size-x" : 290,
+			"size-y" : 30,
+			"small-units" : false,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 2
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay-simple",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 2,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"devices" : 
+			[
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : true,
+					"name" : "FPS",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMESIZE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_CURRENT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MIN"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_AVG"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MAX"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMETIME"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_RENDERTYPE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_01"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_STATS"
+						}
+					],
+					"title" : "分辨率"
+				},
+				{
+					"color" : [ 254, 254, 255, 255 ],
+					"enabled" : false,
+					"name" : "CPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "CPUA_FREQ"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_PACKAGE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_FAN_RPM"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_VCORE_VOLT"
+						}
+					],
+					"title" : "CPU 频率"
+				},
+				{
+					"color" : [ 254, 255, 254, 255 ],
+					"enabled" : false,
+					"name" : "GPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_FAN_SPEED"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_VOLTS"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_MEM_USAGE"
+						}
+					],
+					"title" : "GPU"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "RAM",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "PHYS_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_AVAIL"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PAGE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_TOTAL"
+						}
+					],
+					"title" : "RAM"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "NET",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_UP_RATE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_DL_RATE"
+						}
+					],
+					"title" : "NET"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Ping",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 0"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 2"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 3"
+						}
+					],
+					"title" : "Ping"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Cores",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_VID"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CRIT_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_POWER_LIMIT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_THERMAL_THROT"
+						}
+					],
+					"title" : "Core"
+				}
+			],
+			"draw-names" : true,
+			"draw-units" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Microsoft Sans Serif",
+					"size" : 19000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"line-height" : 1.5,
+			"name" : "分辨率",
+			"pos-x" : 1150,
+			"pos-y" : 995,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensor-color-device" : false,
+			"sensors-indent" : 0.0,
+			"size-x" : 250,
+			"size-y" : 30,
+			"small-units" : false,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 2
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay-simple",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 2,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"devices" : 
+			[
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : true,
+					"name" : "FPS",
+					"sensors" : 
+					[
+						{
+							"alertID" : 8680,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_1"
+						},
+						{
+							"alertID" : 8680,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_AVG"
+						},
+						{
+							"alertID" : 8680,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_01"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_CURRENT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MIN"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MAX"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMETIME"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMESIZE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_RENDERTYPE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_STATS"
+						}
+					],
+					"title" : "1%low帧"
+				},
+				{
+					"color" : [ 254, 254, 255, 255 ],
+					"enabled" : false,
+					"name" : "CPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "CPUA_FREQ"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_PACKAGE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_FAN_RPM"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_VCORE_VOLT"
+						}
+					],
+					"title" : "CPU 频率"
+				},
+				{
+					"color" : [ 254, 255, 254, 255 ],
+					"enabled" : false,
+					"name" : "GPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_FAN_SPEED"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_VOLTS"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_MEM_USAGE"
+						}
+					],
+					"title" : "GPU"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "RAM",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "PHYS_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_AVAIL"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PAGE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_TOTAL"
+						}
+					],
+					"title" : "RAM"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "NET",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_UP_RATE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_DL_RATE"
+						}
+					],
+					"title" : "NET"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Ping",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 0"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 2"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 3"
+						}
+					],
+					"title" : "Ping"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Cores",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_VID"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CRIT_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_POWER_LIMIT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_THERMAL_THROT"
+						}
+					],
+					"title" : "Core"
+				}
+			],
+			"draw-names" : true,
+			"draw-units" : false,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Microsoft Sans Serif",
+					"size" : 19000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"line-height" : 1.5,
+			"name" : "平均帧数",
+			"pos-x" : 870,
+			"pos-y" : 995,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensor-color-device" : false,
+			"sensors-indent" : 0.60000002384185791,
+			"size-x" : 225,
+			"size-y" : 30,
+			"small-units" : false,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 10
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay-simple",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 2,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"devices" : 
+			[
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : true,
+					"name" : "FPS",
+					"sensors" : 
+					[
+						{
+							"alertID" : 8680,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "FPS_AVG"
+						},
+						{
+							"alertID" : 8680,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_1"
+						},
+						{
+							"alertID" : 8680,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_01"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_CURRENT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MIN"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MAX"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMETIME"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMESIZE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_RENDERTYPE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_STATS"
+						}
+					],
+					"title" : "平均帧数"
+				},
+				{
+					"color" : [ 254, 254, 255, 255 ],
+					"enabled" : false,
+					"name" : "CPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "CPUA_FREQ"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_PACKAGE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_FAN_RPM"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_VCORE_VOLT"
+						}
+					],
+					"title" : "CPU 频率"
+				},
+				{
+					"color" : [ 254, 255, 254, 255 ],
+					"enabled" : false,
+					"name" : "GPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_FAN_SPEED"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_VOLTS"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_MEM_USAGE"
+						}
+					],
+					"title" : "GPU"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "RAM",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "PHYS_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_AVAIL"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PAGE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_TOTAL"
+						}
+					],
+					"title" : "RAM"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "NET",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_UP_RATE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_DL_RATE"
+						}
+					],
+					"title" : "NET"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Ping",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 0"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 2"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 3"
+						}
+					],
+					"title" : "Ping"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Cores",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_VID"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CRIT_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_POWER_LIMIT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_THERMAL_THROT"
+						}
+					],
+					"title" : "Core"
+				}
+			],
+			"draw-names" : true,
+			"draw-units" : false,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Microsoft Sans Serif",
+					"size" : 19000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"line-height" : 1.5,
+			"name" : "平均帧数",
+			"pos-x" : 870,
+			"pos-y" : 970,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensor-color-device" : false,
+			"sensors-indent" : 0.80000007152557373,
+			"size-x" : 225,
+			"size-y" : 30,
+			"small-units" : false,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 10
+		},
+		{
+			"alertID" : 21447,
+			"alerts-to-text" : true,
+			"anti-aliasing" : true,
+			"area-chart" : false,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-chart-overlay",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 1,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"direction-down" : false,
+			"direction-left" : false,
+			"draw-marks" : true,
+			"draw-name" : true,
+			"draw-name-value" : "帧生成时间",
+			"draw-value" : true,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Microsoft Sans Serif",
+					"size" : 19000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"line-thinkness" : 1.0,
+			"lines-aa" : true,
+			"name" : "帧生成时间",
+			"pos-x" : 1150,
+			"pos-y" : 910,
+			"range-dynamic" : false,
+			"range-max" : 200.0,
+			"range-min" : 0.0,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensor-instance-index" : 0,
+			"sensor-name" : "Frame time",
+			"sensor-type" : "GAME",
+			"size-x" : 540,
+			"size-y" : 90,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 30
+		},
+		{
+			"anti-aliasing" : true,
+			"capture-flags" : 3,
+			"class" : "sysinfo2-overlay-simple",
+			"color-filter" : [ 255, 255, 255, 255 ],
+			"colors" : 
+			{
+				"base" : [ 255, 255, 255, 255 ],
+				"outline-type" : 2,
+				"shadow1" : [ 1, 1, 1, 255 ]
+			},
+			"devices" : 
+			[
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : true,
+					"name" : "FPS",
+					"sensors" : 
+					[
+						{
+							"alertID" : 8680,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "FPS_CURRENT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MIN"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_AVG"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_MAX"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMETIME"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_FRAMESIZE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_RENDERTYPE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_PERC_01"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "FPS_STATS"
+						}
+					],
+					"title" : "FPS"
+				},
+				{
+					"color" : [ 254, 254, 255, 255 ],
+					"enabled" : false,
+					"name" : "CPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "CPUA_FREQ"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_PACKAGE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_FAN_RPM"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPUA_VCORE_VOLT"
+						}
+					],
+					"title" : "CPU 频率"
+				},
+				{
+					"color" : [ 254, 255, 254, 255 ],
+					"enabled" : false,
+					"name" : "GPU",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_FAN_SPEED"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_CORE_VOLTS"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "GPU_MEM_USAGE"
+						}
+					],
+					"title" : "GPU"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "RAM",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "PHYS_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_AVAIL"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PAGE_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "PHYS_TOTAL"
+						}
+					],
+					"title" : "RAM"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "NET",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_UP_RATE"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "NET_DL_RATE"
+						}
+					],
+					"title" : "NET"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Ping",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 0"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 1"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 2"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : true,
+							"lineSeparator" : false,
+							"name" : "Ping 到服务器 3"
+						}
+					],
+					"title" : "Ping"
+				},
+				{
+					"color" : [ 255, 255, 255, 255 ],
+					"enabled" : false,
+					"name" : "Cores",
+					"sensors" : 
+					[
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_LOAD"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CLOCK"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_VID"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_CRIT_TEMP"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_POWER_LIMIT"
+						},
+						{
+							"alertID" : 0,
+							"dummy" : false,
+							"enabled" : false,
+							"lineSeparator" : false,
+							"name" : "CPU_THERMAL_THROT"
+						}
+					],
+					"title" : "Core"
+				}
+			],
+			"draw-names" : true,
+			"draw-units" : false,
+			"enabled" : true,
+			"font" : 
+			{
+				"main" : 
+				{
+					"family" : "Microsoft Sans Serif",
+					"size" : 53000,
+					"style" : 1
+				}
+			},
+			"keep-aspect" : true,
+			"line-height" : 1.5,
+			"name" : "帧数",
+			"pos-x" : 855,
+			"pos-y" : 890,
+			"scale-x" : 1000,
+			"scale-y" : 1000,
+			"sensor-color-device" : false,
+			"sensors-indent" : 0.0,
+			"size-x" : 295,
+			"size-y" : 80,
+			"small-units" : false,
+			"toggle-hotkey" : [ 0, 0, 0, 0 ],
+			"update-rate" : 20
+		}
+	],
+	"load-hotkey" : [ 0, 0, 0, 0 ],
+	"version" : 2
+}
